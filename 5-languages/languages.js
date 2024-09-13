@@ -1,19 +1,19 @@
 const language = prompt('Выберите язык: RU, EN, JP, KR, NE').toUpperCase();
 
-switch (true) {
-    case language === 'RU':
+switch (language) {
+    case 'RU':
         console.log('Здравствуйте');
         break;
-    case language === 'EN':
+    case 'EN':
         console.log('Hello');
         break;
-    case language === 'JP':
+    case 'JP':
         console.log('こんにちは');
         break;
-    case language === 'KR':
+    case 'KR':
         console.log('안녕하세요');
         break;
-    case language === 'NE':
+    case 'NE':
         console.log('नमस्कार');
         break;
     default:
