@@ -28,3 +28,8 @@ const sort = (array, sortType) => {
 
 console.log(sort(numbers, 'desc'));
 console.log(sort(numbers, 'asc'));
+
+// Можно также использовать трюк обмена переменными
+// if (arr[i] > arr[j]) {
+//     [arr[i], arr[j]] = [arr[j], [arr[i]]
+// }
